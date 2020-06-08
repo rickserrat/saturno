@@ -65,24 +65,16 @@
 
 @media (min-width: 960px) {
   .users {
-    margin-top: 18vh !important;
+    margin-top: 13vh !important;
   }
   #next_event .uk-card-title {
     height: 190px;
   }
 }
 
-.users img,
-.users span {
-  width: 42px !important;
-  height: 42px !important;
-  border-radius: 5px;
-}
 .users span.more {
-  background-color: rgb(223, 97, 75);
-  color: #fff;
-  font-size: 26px;
-  padding: 0px 2px;
+  font-size: 16px;
+  padding: 0px;
 }
 
 /* set colors */
