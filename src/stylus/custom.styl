@@ -4,13 +4,6 @@
   font-family: "Baloo Thambi 2", cursive !important;
 }
 
-danger = rgb(223, 97, 75)
-purple = #8a41f7
-primary = rgb(21, 126, 247)
-success = rgb(63, 219, 206)
-rose = rgb(218, 20, 96)
-
-
 .site {
   display: flex;
   min-height: 100vh;
@@ -80,44 +73,6 @@ rose = rgb(218, 20, 96)
   padding: 0px;
 }
 
-/* Adicionando cores */
-.uk-blackground-black-bis {
-  background-color: hsl(0, 0%, 7%);
-}
-
-.uk-text-danger-bis
-  color: danger !important;
-
-.uk-text-purple 
-  color: purple !important;
-
-.uk-circle.uk-background-danger 
-  border: danger 4px solid !important;
-
-.uk-circle.uk-background-primary 
-  border: primary 4px solid;
-
-.uk-circle.uk-background-success 
-  border: success 4px solid;
-
-.uk-circle.uk-background-rose 
-  border: rose 4px solid;
-
-
-#previous_events .uk-card-header.uk-border-danger {
-  border-left: tomato 4px solid !important;
-}
-#previous_events .uk-card-header.uk-border-primary {
-  border-left: rgb(21, 126, 247) 4px solid !important;
-}
-#previous_events .uk-card-header.uk-border-success {
-  border-left: rgb(63, 219, 206) 4px solid !important;
-}
-#previous_events .uk-card-header.uk-border-rose {
-  border-left: rgb(218, 20, 96) 4px solid !important;
-}
-
-
 // search-bar
 .searchsize
     &:hover
@@ -125,3 +80,13 @@ rose = rgb(218, 20, 96)
 
 .searchsize
   transition: transform .5s ease-out !important
+
+
+.uk-button-watch
+  height: 150px
+
+// no effects
+.uk-card.no-scale {
+  transform: none !important;
+  transition: none !important;
+}
