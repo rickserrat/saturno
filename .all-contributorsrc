@@ -1,0 +1,37 @@
+{
+  "files": [
+    "AUTHORS.md"
+  ],
+  "imageSize": 100,
+  "contributorsPerLine": 7,
+  "contributorsSortAlphabetically": true,
+  "commit": false,
+  "skipCi": true,
+  "contributors": [
+    {
+      "login": "marcuxyz",
+      "name": "Marcus Pereira",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9499562?v=4",
+      "profile": "http://marcuspereira.xyz",
+      "contributions": [
+        "code",
+        "review",
+        "maintenance",
+        "doc"
+      ]
+    },
+    {
+      "login": "jairomr",
+      "name": "Jairo Matos Da Rocha",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7321240?v=4",
+      "profile": "http://jairomr.com.br",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "projectName": "saturno",
+  "projectOwner": "marcuxyz",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
