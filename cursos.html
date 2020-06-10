@@ -1,279 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spacedevs Schedule</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css"
-    />
-    <link rel="stylesheet" href="/public/custom.css" />
 
-  </head>
-  <body class="site">
-    <div class="uk-background-default">
-      <div class="uk-container uk-container-large">
-        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-          <div class="uk-navbar-left">
-            <ul class="uk-navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li class="uk-active"><a href="cursos.html">Cursos</a></li>
-              <li><a href="source-code.html">Código Fonte</a></li>
-              <li><a href="#">Entenda as cores</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spacedevs Schedule</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css" />
+  <link rel="stylesheet" href="/public/custom.css" />
+
+</head>
+
+<body class="site">
+  <div class="uk-background-default">
+    <div class="uk-container uk-container-large">
+      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+        <div class="uk-navbar-left">
+          <ul class="uk-navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="uk-active"><a href="cursos.html">Cursos</a></li>
+            <li><a href="source-code.html">Código Fonte</a></li>
+            <li><a href="#">Entenda as cores</a></li>
+          </ul>
+        </div>
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="registrar.html">Registrar</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
+  </div>
 
-    <main class="site-container">     
-      <section class="uk-section uk-section-large uk-section-muted">
-        <div class="uk-container uk-container-large">
-          <div class="uk-margin-large-bottom">
-            <div class="uk-flex uk-flex-center" uk-grid>
-              <div class="uk-width-1-2@m searchsize uk-flex uk-flex-between">
-                <input 
-                  type="text" 
-                  class="uk-input uk-form-large search uk-box-shadow-medium uk-border-rounded" 
-                  placeholder="Insira o nome de um curso" />
-                <button class="uk-button uk-button-success">Buscar</button>
-              </div>
-            </div>
-          </div>
-          <div class="uk-child-width-1-4@m uk-grid-match" id="next_event" uk-grid>
-            <div>
-              <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
-                href="curso.html">
-                <div>
-                  <h3 class="uk-card-title uk-margin-remove-bottom">
-                    <div class="uk-circle uk-background-danger uk-margin-medium-bottom"></div>
-                    Incorporando Docker em projetos Python
-                  </h3>
-                </div>
-                <div class="uk-flex uk-flex-between course-meta">
-                  <div class="more uk-text-left">
-                    <div>
-                      <ion-icon name="person-outline"></ion-icon>
-                      Amanda Fanz
-                    </div>
-                    <div>
-                      <ion-icon name="book-outline"></ion-icon>
-                      40 aulas
-                    </div>
-                    <div>
-                      <ion-icon name="time-outline"></ion-icon>
-                      120 horas
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
-                href="curso.html">
-                <div>
-                  <h3 class="uk-card-title uk-margin-remove-bottom">
-                    <div class="uk-circle uk-background-success uk-margin-medium-bottom"></div>
-                    Introdução ao Docker & Docker Compose
-                  </h3>
-                </div>
-                <div class="uk-flex uk-flex-between course-meta">
-                  <div class="more uk-text-left">
-                    <div>
-                      <ion-icon name="person-outline"></ion-icon>
-                      Marcus Pereira
-                    </div>
-                    <div>
-                      <ion-icon name="book-outline"></ion-icon>
-                      15 aulas
-                    </div>
-                    <div>
-                      <ion-icon name="time-outline"></ion-icon>
-                      2 horas
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
-                href="curso.html">
-                <div>
-                  <h3 class="uk-card-title uk-margin-remove-bottom">
-                    <div class="uk-circle uk-background-rose uk-margin-medium-bottom" title="Curso para iniciante">
-                    </div>
-                    Aprendendo PHP do 0 ao profissional
-                  </h3>
-                </div>
-                <div class="uk-flex uk-flex-between course-meta">
-                  <div class="more uk-text-left">
-                    <div>
-                      <ion-icon name="person-outline"></ion-icon>
-                      Rodrigo Arruda
-                    </div>
-                    <div>
-                      <ion-icon name="book-outline"></ion-icon>
-                      31 aulas
-                    </div>
-                    <div>
-                      <ion-icon name="time-outline"></ion-icon>
-                      9 horas
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
-                href="curso.html">
-                <div>
-                  <h3 class="uk-card-title uk-margin-remove-bottom">
-                    <div class="uk-circle uk-background-primary uk-margin-medium-bottom"></div>
-                    Utilizando o Redis em produção
-                  </h3>
-                </div>
-                <div class="uk-flex uk-flex-between course-meta">
-                  <div class="more uk-text-left">
-                    <div>
-                      <ion-icon name="person-outline"></ion-icon>
-                      Felipe Silva
-                    </div>
-                    <div>
-                      <ion-icon name="book-outline"></ion-icon>
-                      10 aulas
-                    </div>
-                    <div>
-                      <ion-icon name="time-outline"></ion-icon>
-                      3 horas
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
-                href="curso.html">
-                <div>
-                  <h3 class="uk-card-title uk-margin-remove-bottom">
-                    <div class="uk-circle uk-background-danger uk-margin-medium-bottom"></div>
-                    Incorporando Docker em projetos Python
-                  </h3>
-                </div>
-                <div class="uk-flex uk-flex-between course-meta">
-                  <div class="more uk-text-left">
-                    <div>
-                      <ion-icon name="person-outline"></ion-icon>
-                      Amanda Fanz
-                    </div>
-                    <div>
-                      <ion-icon name="book-outline"></ion-icon>
-                      40 aulas
-                    </div>
-                    <div>
-                      <ion-icon name="time-outline"></ion-icon>
-                      120 horas
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
-                href="curso.html">
-                <div>
-                  <h3 class="uk-card-title uk-margin-remove-bottom">
-                    <div class="uk-circle uk-background-success uk-margin-medium-bottom"></div>
-                    Introdução ao Docker & Docker Compose
-                  </h3>
-                </div>
-                <div class="uk-flex uk-flex-between course-meta">
-                  <div class="more uk-text-left">
-                    <div>
-                      <ion-icon name="person-outline"></ion-icon>
-                      Marcus Pereira
-                    </div>
-                    <div>
-                      <ion-icon name="book-outline"></ion-icon>
-                      15 aulas
-                    </div>
-                    <div>
-                      <ion-icon name="time-outline"></ion-icon>
-                      2 horas
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
-                href="curso.html">
-                <div>
-                  <h3 class="uk-card-title uk-margin-remove-bottom">
-                    <div class="uk-circle uk-background-rose uk-margin-medium-bottom" title="Curso para iniciante">
-                    </div>
-                    Aprendendo PHP do 0 ao profissional
-                  </h3>
-                </div>
-                <div class="uk-flex uk-flex-between course-meta">
-                  <div class="more uk-text-left">
-                    <div>
-                      <ion-icon name="person-outline"></ion-icon>
-                      Rodrigo Arruda
-                    </div>
-                    <div>
-                      <ion-icon name="book-outline"></ion-icon>
-                      31 aulas
-                    </div>
-                    <div>
-                      <ion-icon name="time-outline"></ion-icon>
-                      9 horas
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
-                href="curso.html">
-                <div>
-                  <h3 class="uk-card-title uk-margin-remove-bottom">
-                    <div class="uk-circle uk-background-primary uk-margin-medium-bottom"></div>
-                    Utilizando o Redis em produção
-                  </h3>
-                </div>
-                <div class="uk-flex uk-flex-between course-meta">
-                  <div class="more uk-text-left">
-                    <div>
-                      <ion-icon name="person-outline"></ion-icon>
-                      Felipe Silva
-                    </div>
-                    <div>
-                      <ion-icon name="book-outline"></ion-icon>
-                      10 aulas
-                    </div>
-                    <div>
-                      <ion-icon name="time-outline"></ion-icon>
-                      3 horas
-                    </div>
-                  </div>
-                </div>
-              </a>
+  <main class="site-container">
+    <section class="uk-section uk-section-large uk-section-muted">
+      <div class="uk-container uk-container-large">
+        <div class="uk-margin-large-bottom">
+          <div class="uk-flex uk-flex-center" uk-grid>
+            <div class="uk-width-1-2@m searchsize uk-flex uk-flex-between">
+              <input type="text" class="uk-input uk-form-large search uk-box-shadow-medium uk-border-rounded"
+                placeholder="Insira o nome de um curso" />
+              <button class="uk-button uk-button-success uk-border-rounded uk-margin-small-left">Buscar</button>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-
-    <footer class="uk-background-default uk-section uk-section-small">
-      <div class="uk-container">
-        <p class="uk-text-center">
-          &COPY;Spacedevs 2020 - Todos os direitos reservados
-        </p>
+        <div class="uk-child-width-1-4@m uk-grid-match" id="next_event" uk-grid>
+          <div>
+            <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
+              href="curso.html">
+              <div>
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  <div class="uk-circle uk-background-danger uk-margin-medium-bottom"></div>
+                  Incorporando Docker em projetos Python
+                </h3>
+              </div>
+              <div class="uk-flex uk-flex-between course-meta">
+                <div class="more uk-text-left">
+                  <div>
+                    <ion-icon name="person-outline"></ion-icon>
+                    Amanda Fanz
+                  </div>
+                  <div>
+                    <ion-icon name="book-outline"></ion-icon>
+                    40 aulas
+                  </div>
+                  <div>
+                    <ion-icon name="time-outline"></ion-icon>
+                    120 horas
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
+              href="curso.html">
+              <div>
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  <div class="uk-circle uk-background-success uk-margin-medium-bottom"></div>
+                  Introdução ao Docker & Docker Compose
+                </h3>
+              </div>
+              <div class="uk-flex uk-flex-between course-meta">
+                <div class="more uk-text-left">
+                  <div>
+                    <ion-icon name="person-outline"></ion-icon>
+                    Marcus Pereira
+                  </div>
+                  <div>
+                    <ion-icon name="book-outline"></ion-icon>
+                    15 aulas
+                  </div>
+                  <div>
+                    <ion-icon name="time-outline"></ion-icon>
+                    2 horas
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
+              href="curso.html">
+              <div>
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  <div class="uk-circle uk-background-rose uk-margin-medium-bottom" title="Curso para iniciante">
+                  </div>
+                  Aprendendo PHP do 0 ao profissional
+                </h3>
+              </div>
+              <div class="uk-flex uk-flex-between course-meta">
+                <div class="more uk-text-left">
+                  <div>
+                    <ion-icon name="person-outline"></ion-icon>
+                    Rodrigo Arruda
+                  </div>
+                  <div>
+                    <ion-icon name="book-outline"></ion-icon>
+                    31 aulas
+                  </div>
+                  <div>
+                    <ion-icon name="time-outline"></ion-icon>
+                    9 horas
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
+              href="curso.html">
+              <div>
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  <div class="uk-circle uk-background-primary uk-margin-medium-bottom"></div>
+                  Utilizando o Redis em produção
+                </h3>
+              </div>
+              <div class="uk-flex uk-flex-between course-meta">
+                <div class="more uk-text-left">
+                  <div>
+                    <ion-icon name="person-outline"></ion-icon>
+                    Felipe Silva
+                  </div>
+                  <div>
+                    <ion-icon name="book-outline"></ion-icon>
+                    10 aulas
+                  </div>
+                  <div>
+                    <ion-icon name="time-outline"></ion-icon>
+                    3 horas
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
+              href="curso.html">
+              <div>
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  <div class="uk-circle uk-background-danger uk-margin-medium-bottom"></div>
+                  Incorporando Docker em projetos Python
+                </h3>
+              </div>
+              <div class="uk-flex uk-flex-between course-meta">
+                <div class="more uk-text-left">
+                  <div>
+                    <ion-icon name="person-outline"></ion-icon>
+                    Amanda Fanz
+                  </div>
+                  <div>
+                    <ion-icon name="book-outline"></ion-icon>
+                    40 aulas
+                  </div>
+                  <div>
+                    <ion-icon name="time-outline"></ion-icon>
+                    120 horas
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
+              href="curso.html">
+              <div>
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  <div class="uk-circle uk-background-success uk-margin-medium-bottom"></div>
+                  Introdução ao Docker & Docker Compose
+                </h3>
+              </div>
+              <div class="uk-flex uk-flex-between course-meta">
+                <div class="more uk-text-left">
+                  <div>
+                    <ion-icon name="person-outline"></ion-icon>
+                    Marcus Pereira
+                  </div>
+                  <div>
+                    <ion-icon name="book-outline"></ion-icon>
+                    15 aulas
+                  </div>
+                  <div>
+                    <ion-icon name="time-outline"></ion-icon>
+                    2 horas
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
+              href="curso.html">
+              <div>
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  <div class="uk-circle uk-background-rose uk-margin-medium-bottom" title="Curso para iniciante">
+                  </div>
+                  Aprendendo PHP do 0 ao profissional
+                </h3>
+              </div>
+              <div class="uk-flex uk-flex-between course-meta">
+                <div class="more uk-text-left">
+                  <div>
+                    <ion-icon name="person-outline"></ion-icon>
+                    Rodrigo Arruda
+                  </div>
+                  <div>
+                    <ion-icon name="book-outline"></ion-icon>
+                    31 aulas
+                  </div>
+                  <div>
+                    <ion-icon name="time-outline"></ion-icon>
+                    9 horas
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a class="uk-display-block uk-link-toggle uk-card uk-card-large uk-card-default uk-card-body uk-border-rounded"
+              href="curso.html">
+              <div>
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                  <div class="uk-circle uk-background-primary uk-margin-medium-bottom"></div>
+                  Utilizando o Redis em produção
+                </h3>
+              </div>
+              <div class="uk-flex uk-flex-between course-meta">
+                <div class="more uk-text-left">
+                  <div>
+                    <ion-icon name="person-outline"></ion-icon>
+                    Felipe Silva
+                  </div>
+                  <div>
+                    <ion-icon name="book-outline"></ion-icon>
+                    10 aulas
+                  </div>
+                  <div>
+                    <ion-icon name="time-outline"></ion-icon>
+                    3 horas
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
-    </footer>
+    </section>
+  </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit-icons.min.js"></script>
-  </body>
+  <footer class="uk-background-default uk-section uk-section-small">
+    <div class="uk-container">
+      <p class="uk-text-center">
+        &COPY;Spacedevs 2020 - Todos os direitos reservados
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit-icons.min.js"></script>
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>>
+</body>
+
 </html>
