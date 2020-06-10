@@ -1,22 +1,20 @@
 // navigation
 .uk-navbar-nav .uk-active
-  border-bottom: 5px solid danger;
+  border-bottom: 5px solid primary
   border-radius: 5px;
 
 // cards
 .uk-card
-  transition: transform 500ms;
+  transition: transform 500ms
 
 .uk-card:hover
-  transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1)
 
-.uk-card-title {
-  font-size: 20px !important;
-}
+.uk-card-title
+  font-size: 20px !important
 
-.uk-card.uk-border-rounded {
-  border-radius: 15px;
-}
+.uk-card.uk-border-rounded
+  border-radius: 15px
 
 .progress-text
     font-size: 1rem
@@ -40,7 +38,7 @@
 }
 
 @media (max-width: 959px) {
-  .users {
+  .course-meta {
     margin-top: 3rem !important;
   }
   #courses .uk-card-title {
@@ -49,18 +47,26 @@
 }
 
 @media (min-width:960px)
-  .users
+  .course-meta
     margin-top: 18vh !important;
 
   #courses .uk-card-title
     height: 190px;
 
-.users span.more {
-  font-size: 16px;
-  padding: 0px;
-}
+// meta of courses
+.course-meta .more
+  font-size:  15px
+  padding: 0px
 
-// 
+.course-meta .more div
+  margin-bottom: 10px
+
+.course-meta ion-icon
+  font-size: 20px
+  margin-right: 3px
+  vertical-align: middle
+
+
 .scroll
   overflow: scroll !important;
   height: 700px
