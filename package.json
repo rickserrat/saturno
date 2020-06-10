@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "live-server",
+    "build": "stylus src/stylus/app.styl -o ./public/custom.css",
     "watch:css": "stylus -w src/stylus/app.styl -o ./public/custom.css"
   },
   "repository": {
