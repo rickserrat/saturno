@@ -11,7 +11,7 @@ Se você gostaria de testar este layout, fique a vontade para baixar o tema. Mas
 - [Serve](https://www.npmjs.com/package/serve)
 - [Live-server (vscode)](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-Caso, você não queira instalar estes pacotes blobalmente, fique a vontade para executar os seguintes comandos em seu terminal, após baixar o projeto.
+Caso, você não queira instalar estes pacotes globalmente, fique a vontade para executar os seguintes comandos em seu terminal, após baixar o projeto.
 
 ```bash
 npm install
